@@ -1,3 +1,25 @@
-p {
-    background-color: grey;
+#header-container {
+    display: flex;
 }
+
+#header-logo {
+    /* margin-left: 0; */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#header-item {
+    margin-right: auto;
+    gap: 24px;
+}
+
+#container-one {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-box {
+    display: flex;
+}
+
