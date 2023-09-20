@@ -78,12 +78,30 @@ h2 {
 
 #image-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 12px;
 }
 
-#image-item img{
-    border: #3882f6 solid 5px;
+#image-one, #image-two, #image-three, #image-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#image-one img {
+    border: #F09A9D solid 5px;
+}
+
+#image-two img {
+    border: wheat solid 5px;
+}
+#image-three img {
+    border: #C3EDFA solid 5px;
+}
+#image-four img {
+    border: #B2D6FF solid 5px;
 }
 img {
     border-radius: 25px;
