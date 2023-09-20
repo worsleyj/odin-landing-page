@@ -1,3 +1,12 @@
+* {
+    background-color: #1f2937;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+body {
+    margin: 0px;
+}
 #header-container {
     margin: 0px 140px 0px;
     padding: 12px;
@@ -128,12 +137,43 @@ img {
     padding: 16px;
     font-weight: 900;
 }
-* {
-    background-color: #1f2937;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+
+#background-container, #background-container * {
+    background-color: white;
     
 }
 
+#container-three {
+    background-color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: stretch    ;
+    padding: 75px;
+    border-radius: 25px;
+}
+#container-three * {
+    background-color: #3882f6;
+    padding: 12px;
+    color: white;
+}
+
+#container-three p {
+    margin: 0;
+}
+
+#main-signup {
+    border: solid white;
+    width: 100px;
+    height:100px;
+}
+
+#footer p {
+    color: #f9faf8;
+    font-size: 12px;
+    text-align: center;
+}
 a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
