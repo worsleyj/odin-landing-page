@@ -1,22 +1,21 @@
 #header-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #header-logo {
-    flex: 1;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bolder;
 }
 
-#header-item {
-    flex: 1;
+.header-item {
     display: flex;
     gap: 15px;
 }
 
-#header-item * {
-    color: #e5e6eb;
+.header-item * {
+    color: #c3c4c7;
     font-size: 18px;
 }
 
@@ -27,7 +26,6 @@
 }
 
 #left-box {
-    flex: 1;
     flex-direction: column;
 }
 
@@ -38,12 +36,12 @@
 }
 
 #main-subtext {
-    color: #e5e6eb;
+    color: #c3c4c7;
     font-size: 18px;
 }
 
 button, button *{
-    color: #e5e6eb;
+    color: #c3c4c7;
     background-color: #3882f6;  
 }
 
