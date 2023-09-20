@@ -33,9 +33,6 @@
     width: 500px;
     padding-top: 15px;
 }
-/* #left-box {
-    flex-direction: column;
-} */
 
 #main-text {
     color: #f9faf8;
@@ -48,11 +45,12 @@
     font-size: 18px;
 }
 
-#image-subtext {
+#bird-image-subtext {
     color: #c3c4c7;
     font-size: 14px;
     text-align: center;
 }
+
 button, button *{
     height: 35px;
     width: 100px;
@@ -61,6 +59,34 @@ button, button *{
     border-radius: 6px;
     border: none;
     font-weight: bolder;
+}
+
+#container-two {
+    padding-top: 6px;
+    padding-bottom: 80px;
+}
+#container-two, #container-two * {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+#image-item img{
+    border: #3882f6 solid 5px;
+}
+img {
+    border-radius: 25px;
 }
 
 * {
