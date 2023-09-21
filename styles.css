@@ -89,10 +89,12 @@ h2 {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
+    margin: 0px 140px 0px;
 }
 
 #image-one, #image-two, #image-three, #image-four {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -101,16 +103,20 @@ h2 {
 
 #image-one img {
     border: #F09A9D solid 5px;
+    flex: 1;
 }
 
 #image-two img {
     border: wheat solid 5px;
+    flex: 1;
 }
 #image-three img {
     border: #C3EDFA solid 5px;
+    flex: 1;
 }
 #image-four img {
     border: #B2D6FF solid 5px;
+    flex: 1;
 }
 img {
     border-radius: 25px;
